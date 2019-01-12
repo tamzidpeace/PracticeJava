@@ -1,4 +1,4 @@
-package date
+package Kotlin.date
 
 fun main( args : Array<String>) {
     var a = arrayOf(10,20,"hi")

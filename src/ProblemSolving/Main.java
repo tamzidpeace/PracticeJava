@@ -1,3 +1,5 @@
+package ProblemSolving;
+
 import java.sql.Array;
 import java.util.Scanner;
 
