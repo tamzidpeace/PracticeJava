@@ -1,4 +1,4 @@
-package ProblemSolving;
+package Algorithms;
 
 import java.util.Scanner;
 
