@@ -2,7 +2,8 @@ package Test;
 
 public class Test01 {
 
-    public static void main(String[] args) {
 
+    protected void display() {
+        System.out.println("hello");
     }
 }

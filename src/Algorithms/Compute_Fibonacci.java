@@ -9,7 +9,7 @@ public class Compute_Fibonacci {
     public static void main(String[] args) {
 
         int number;
-        Test00 test00 = new Test00();
+        Compute_Fibonacci test00 = new Compute_Fibonacci();
 
         Scanner scanner = new Scanner(System.in);
         number = scanner.nextInt();
@@ -21,7 +21,7 @@ public class Compute_Fibonacci {
 
 
 
-    private  int compute(int number) {
+    public   int compute(int number) {
 
         if(number <= 0) {
             return 0;
