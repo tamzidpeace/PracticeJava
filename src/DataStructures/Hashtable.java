@@ -63,7 +63,7 @@ public class Hashtable {
         room_mates.put(1, "tanvir");
         room_mates.put(2, "sweet");
         room_mates.put(3, "rana");
-        room_mates.put(4, "");
+        //room_mates.put(4, null);
 
         for(Map.Entry m: room_mates.entrySet()) {
             System.out.println(m.getValue());
