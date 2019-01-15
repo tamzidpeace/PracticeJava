@@ -28,6 +28,8 @@ public class IsUnique {
 
 
 
+
+
         if(key == 0) System.out.println("False");
         else System.out.println("True");
     }

@@ -1,9 +1,6 @@
 package Test;
 
-public class Test02 extends Test01{
+public class Test02 {
 
-    @Override
-    protected void display() {
-        super.display();
-    }
+
 }

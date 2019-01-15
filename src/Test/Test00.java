@@ -6,9 +6,18 @@ public class Test00 {
 
     public static void main(String[] args) {
 
-        Test02 test02 = new Test02();
+        Scanner scanner = new Scanner(System.in);
 
-        test02.display();
+        //String text = scanner.nextLine();
+        String text1 = "hello world";
+
+        String text = text1.replace(" ", "%20");
+
+        System.out.println(text);
+
+
+
+
     }
 
 
