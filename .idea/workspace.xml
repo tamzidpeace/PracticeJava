@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf17b9e2-c955-491d-998a-39e72d2feb13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/AntonandPolyhedrons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CTC_ProblemSolution/URLify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTC_ProblemSolution/URLify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/BachgoldProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/AntonandPolyhedrons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/AntonandPolyhedrons.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProblemSolving/AntonandPolyhedrons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="56">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProblemSolving/BachgoldProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -72,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/CTC_ProblemSolution/URLify.java" />
         <option value="$PROJECT_DIR$/src/Test/Test00.java" />
         <option value="$PROJECT_DIR$/src/ProblemSolving/AntonandPolyhedrons.java" />
+        <option value="$PROJECT_DIR$/src/ProblemSolving/BachgoldProblem.java" />
       </list>
     </option>
   </component>
@@ -131,7 +141,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/arafa/IdeaProjects/Practice Java/src/JavaOutputFormatting.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547619731397" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547621663021" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
@@ -146,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AntonandPolyhedrons">
+  <component name="RunManager" selected="Application.BachgoldProblem">
     <configuration name="AntonandPolyhedrons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProblemSolving.AntonandPolyhedrons" />
       <module name="Practice Java" />
@@ -160,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hashtable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructures.Hashtable" />
+    <configuration name="BachgoldProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemSolving.BachgoldProblem" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructures.*" />
+          <option name="PATTERN" value="ProblemSolving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,19 +223,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Hashtable" />
       <item itemvalue="Application.IsUnique" />
       <item itemvalue="Application.Test00" />
       <item itemvalue="Application.URLify" />
       <item itemvalue="Application.AntonandPolyhedrons" />
+      <item itemvalue="Application.BachgoldProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BachgoldProblem" />
         <item itemvalue="Application.AntonandPolyhedrons" />
         <item itemvalue="Application.Test00" />
         <item itemvalue="Application.URLify" />
         <item itemvalue="Application.IsUnique" />
-        <item itemvalue="Application.Hashtable" />
       </list>
     </recent_temporary>
   </component>
@@ -329,8 +339,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17096774" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17096774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.31386024" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.31386024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -545,8 +556,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProblemSolving/AntonandPolyhedrons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="56">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemSolving/BachgoldProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
