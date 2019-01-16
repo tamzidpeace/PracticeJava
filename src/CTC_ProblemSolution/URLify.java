@@ -11,7 +11,7 @@ public class URLify {
 
         String sentence = scanner.nextLine();
 
-        String newSentence = sentence.replace(" ", "%20");
+        String newSentence = sentence.replaceAll("\\s", "%20");
 
         System.out.println(newSentence);
     }
