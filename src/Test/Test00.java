@@ -8,6 +8,8 @@ public class Test00 {
 
 
         System.out.println("hello" + 10 + 20);
+        // what is 2b||!2b
+        // its from js and its result is !false
 
 
 
