@@ -1,17 +1,17 @@
-package Test;
+package NormalJavaLearning;
 
 
-
-public class Test00 implements Runnable{
+public class MultiThreading implements Runnable{
 
     public static void main(String[] args) {
 
-        Test00 test00 = new Test00();
-        Thread thread = new Thread(test00);
-        Thread thread1 = new Thread(test00);
+        MultiThreading multiThreading  = new MultiThreading();
+        Thread thread = new Thread(multiThreading);
+        Thread thread1 = new Thread(multiThreading);
         thread.start();
         System.out.println("i am here");
         thread1.start();
+
 
 
     }
@@ -20,7 +20,7 @@ public class Test00 implements Runnable{
     @Override
     public void run() {
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             try {
                 System.out.println(i);
                 System.out.println("\n");
