@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd4df2d-ed40-4c96-afa8-66f2421f8bcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/AntonAndDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/FibonacciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/GenderDetect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoeminimax/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoeminimax/GameState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/NormalJavaLearning/MultiThreading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/NormalJavaLearning/MultiThreading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Test/Test00.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Test/Test00.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Test/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Test/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Test00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test00.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,53 +26,84 @@
     <session id="-173526115">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.72" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="975" />
+          <entry key="java" value="2246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="975" />
+          <entry key="JAVA" value="2246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProblemSolving/AntonAndDigits.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tictactoeminimax/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-106">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="796">
+              <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3358#3359#0" expanded="true" />
+                <element signature="e#3405#3406#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProblemSolving/AntonandPolyhedrons.java">
+        <entry file="file://$PROJECT_DIR$/src/tictactoeminimax/GameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="1972">
+              <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+              <folding>
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#2623#2624#0" expanded="true" />
+                <element signature="e#2697#2698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,13 +132,28 @@
         <option value="$PROJECT_DIR$/src/ProblemSolving/WrongSubtraction.java" />
         <option value="$PROJECT_DIR$/src/ProblemSolving/InSearchofanEasyProblem.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Test/Test00.java" />
         <option value="$PROJECT_DIR$/src/NormalJavaLearning/MultiThreading.java" />
-        <option value="$PROJECT_DIR$/src/Test/Test01.java" />
         <option value="$PROJECT_DIR$/src/ProblemSolving/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/ProblemSolving/AntonAndDigits.java" />
+        <option value="$PROJECT_DIR$/src/ProblemSolving/FibonacciNumber.java" />
+        <option value="$PROJECT_DIR$/src/ProblemSolving/GenderDetect.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/BFS.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Test/Test01.java" />
+        <option value="$PROJECT_DIR$/src/Test/Test00.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/aStar.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/BFS.java" />
+        <option value="$PROJECT_DIR$/src/tictactoeminimax/Game.java" />
+        <option value="$PROJECT_DIR$/src/tictactoeminimax/GameState.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -115,7 +169,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,13 +188,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/arafa/IdeaProjects/Practice Java/src/JavaOutputFormatting.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551164229310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552404508329" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -154,9 +208,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AntonAndDigits">
-    <configuration name="AntonAndDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProblemSolving.AntonAndDigits" />
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Artificial_Intelligence.Game" />
+      <module name="Practice Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Artificial_Intelligence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenderDetect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemSolving.GenderDetect" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
@@ -168,38 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProblemSolving.FizzBuzz" />
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Graph" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProblemSolving.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InSearchofanEasyProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProblemSolving.InSearchofanEasyProblem" />
-      <module name="Practice Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProblemSolving.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NormalJavaLearning.MultiThreading" />
-      <module name="Practice Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NormalJavaLearning.*" />
+          <option name="PATTERN" value="Algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,20 +261,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test01" />
+      <module name="Practice Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.InSearchofanEasyProblem" />
+      <item itemvalue="Application.GenderDetect" />
+      <item itemvalue="Application.Graph" />
+      <item itemvalue="Application.Test01" />
       <item itemvalue="Application.Test00" />
-      <item itemvalue="Application.MultiThreading" />
-      <item itemvalue="Application.FizzBuzz" />
-      <item itemvalue="Application.AntonAndDigits" />
+      <item itemvalue="Application.Game" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AntonAndDigits" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.MultiThreading" />
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.Test00" />
-        <item itemvalue="Application.InSearchofanEasyProblem" />
+        <item itemvalue="Application.Test01" />
+        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.GenderDetect" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +392,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18476622" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21774194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,24 +401,24 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.84253246" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984917" weight="0.37155962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32798165" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.26182237" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32792208" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015083" side_tool="true" weight="0.45616883" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32760596" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32683486" />
       <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962293" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3295626" />
       <window_info anchor="right" id="Maven" order="8" />
       <window_info anchor="right" id="Flutter Inspector" order="9" />
       <window_info anchor="right" id="Flutter Outline" order="10" />
@@ -372,6 +426,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/date/practice kotlin.kts" />
@@ -571,20 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Test00.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NormalJavaLearning/MultiThreading.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -601,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProblemSolving/AntonAndDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
+        <state relative-caret-position="272">
           <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
@@ -610,6 +654,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemSolving/FibonacciNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemSolving/GenderDetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Test00.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="80" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="83" column="44" lean-forward="true" selection-start-line="2" selection-end-line="83" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#965#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoeminimax/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3358#3359#0" expanded="true" />
+            <element signature="e#3405#3406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoeminimax/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+          <folding>
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

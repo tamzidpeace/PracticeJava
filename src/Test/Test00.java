@@ -1,35 +1,30 @@
 package Test;
 
 
+import java.util.Scanner;
 
-public class Test00 implements Runnable{
+public class Test00 {
 
     public static void main(String[] args) {
 
-        Test00 test00 = new Test00();
-        Thread thread = new Thread(test00);
-        Thread thread1 = new Thread(test00);
-        thread.start();
-        System.out.println("i am here");
-        thread1.start();
+        String phone;
+        Scanner scanner = new Scanner(System.in);
+        phone = scanner.nextLine();
+        char[] number = {'+', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+        int check = 0;
 
-
-    }
-
-
-    @Override
-    public void run() {
-
-        for (int i = 0; i < 10; i++) {
-            try {
-                System.out.println(i);
-                System.out.println("\n");
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+        for (int i = 0; i < phone.length(); i++) {
+            for (int j = 0; j < number.length; j++) {
+                if(phone.charAt(i) == number[j])
+                    check++;
             }
         }
 
+        System.out.println(phone.length());
+        System.out.println(check);
+
 
     }
+
+
 }
