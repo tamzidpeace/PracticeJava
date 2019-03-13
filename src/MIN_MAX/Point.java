@@ -154,7 +154,8 @@ class Board {
             }
             board[point.x][point.y] = 0; //Reset this point
         }
-        return turn == 1 ? max : min;
+        if (turn == 1) return max;
+        else return min;
     }
 
 

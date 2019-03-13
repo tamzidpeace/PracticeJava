@@ -66,19 +66,40 @@ class Graph
     // Driver method to
     public static void main(String args[])
     {
-        Graph g = new Graph(4);
+        Graph g = new Graph(5);
 
-        g.addEdge(0, 1);
+        /*g.addEdge(0, 1);
         g.addEdge(0, 2);
         g.addEdge(1, 2);
         g.addEdge(2, 0);
         g.addEdge(2, 3);
-        g.addEdge(3, 3);
+        g.addEdge(3, 3);*/
+
+        g.addEdge(0,1);
+        g.addEdge(0,4);
+        g.addEdge(1, 2);
+        g.addEdge(1, 3);
+        g.addEdge(1, 4);
+        g.addEdge(2, 3);
+        g.addEdge(3, 4);
+
+
+
+
+
 
         System.out.println("Following is Breadth First Traversal "+
-                "(starting from vertex 2)");
+                "(starting from vertex 0)");
 
-        g.BFS(2);
+        g.BFS(1);
     }
 }
-// This code is contributed by Aakash Hasija
+
+/*
+ * 0-------1\
+ * |       |  \ 2
+ * |       |  /
+ * 4-------3/
+ *
+ * */
+
