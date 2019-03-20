@@ -1,4 +1,4 @@
-package Artificial_Intelligence; /**
+package Artificial_Intelligence.A_Star_Search; /**
  * A* algorithm implementation using the method design pattern.
  *
  */

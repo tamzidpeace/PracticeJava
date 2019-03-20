@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd4df2d-ed40-4c96-afa8-66f2421f8bcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/BFS/bfs_lite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/DFS/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/DLS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/Greedy_Best_First_Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirection_Search_2/BidirectionalSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirection_Search_2/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirectional_Search/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirectional_Search/GraphHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirectional_Search/GraphTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/DFS/DLS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/IDS/IterativeDeepening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Getter_Setter/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Getter_Setter/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Getter_Setter/Second_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Rex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Socket/MyServe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoeminimax/MyClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Test/Test00.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Test/Test00.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Artificial_Intelligence/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MIN_MAX/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MIN_MAX/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test00.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/A_Star_Search/AStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Artificial_Intelligence/DLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Artificial_Intelligence/DLS/DepthLimitedSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,26 +30,29 @@
     <session id="-173526115">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.109" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.53" value="2" />
+          <entry key="project.open.time.56" value="2" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -55,8 +63,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2722" />
-          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="JAVA" value="3355" />
+          <entry key="PLAIN_TEXT" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,7 +74,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="67" />
         </counts>
       </usages-collector>
     </session>
@@ -74,62 +82,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/BFS.java">
+        <entry file="file://$PROJECT_DIR$/src/Getter_Setter/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java">
+        <entry file="file://$PROJECT_DIR$/src/Getter_Setter/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3689">
-              <caret line="223" column="61" selection-start-line="223" selection-start-column="61" selection-end-line="223" selection-end-column="61" />
-              <folding>
-                <element signature="e#3027#3028#0" expanded="true" />
-                <element signature="e#3065#3066#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/DLS.java">
+        <entry file="file://$PROJECT_DIR$/src/Getter_Setter/Second_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/Greedy_Best_First_Search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/DFS/DFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -189,6 +169,21 @@
         <option value="$PROJECT_DIR$/src/Artificial_Intelligence/Greedy_Best_First_Search.java" />
         <option value="$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java" />
         <option value="$PROJECT_DIR$/src/Artificial_Intelligence/DLS.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/DFS/DLS.java" />
+        <option value="$PROJECT_DIR$/src/Java_Rex.java" />
+        <option value="$PROJECT_DIR$/src/tictactoeminimax/MyClient.java" />
+        <option value="$PROJECT_DIR$/src/Socket/MyServe.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/DLS/DLS.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/DLS/DepthLimitedSearch.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/IDS/IterativeDeepening.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirectional_Search/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirectional_Search/GraphHelper.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirectional_Search/GraphTest.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirection_Search_2/Node.java" />
+        <option value="$PROJECT_DIR$/src/Artificial_Intelligence/Bidirection_Search_2/BidirectionalSearch.java" />
+        <option value="$PROJECT_DIR$/src/Getter_Setter/Model.java" />
+        <option value="$PROJECT_DIR$/src/Getter_Setter/Second_Controller.java" />
+        <option value="$PROJECT_DIR$/src/Getter_Setter/Controller.java" />
       </list>
     </option>
   </component>
@@ -199,10 +194,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-52" />
-    <option name="y" value="156" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="550" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -212,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,25 +224,18 @@
               <item name="Practice Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Practice Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Artificial_Intelligence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Practice Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practice Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tictactoeminimax" type="462c0819:PsiDirectoryNode" />
+              <item name="Getter_Setter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="bfs&#9;FILE&#9;file://C:/Users/arafa/IdeaProjects/Practice Java/src/Artificial_Intelligence/BFS.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552475913510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553101009643" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -262,13 +251,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Graph (1)">
-    <configuration name="DepthLimitedSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Artificial_Intelligence.DepthLimitedSearch" />
+  <component name="RunManager" selected="Application.Second_Controller">
+    <configuration name="BidirectionalSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Artificial_Intelligence.Bidirection_Search_2.BidirectionalSearch" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Artificial_Intelligence.*" />
+          <option name="PATTERN" value="Artificial_Intelligence.Bidirection_Search_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,11 +266,11 @@
       </method>
     </configuration>
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Artificial_Intelligence.Game" />
+      <option name="MAIN_CLASS_NAME" value="tictactoeminimax.Game" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Artificial_Intelligence.*" />
+          <option name="PATTERN" value="tictactoeminimax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Artificial_Intelligence.Graph" />
+    <configuration name="GraphTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Artificial_Intelligence.Bidirectional_Search.GraphTest" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Artificial_Intelligence.*" />
+          <option name="PATTERN" value="Artificial_Intelligence.Bidirectional_Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,12 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Artificial_Intelligence.DFS.Graph" />
+    <configuration name="IterativeDeepening" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Artificial_Intelligence.IDS.IterativeDeepening" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Artificial_Intelligence.DFS.*" />
+          <option name="PATTERN" value="Artificial_Intelligence.IDS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,12 +304,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Artificial_Intelligence.Solution" />
+    <configuration name="Second_Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Getter_Setter.Second_Controller" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Artificial_Intelligence.*" />
+          <option name="PATTERN" value="Getter_Setter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,19 +318,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Graph (1)" />
-      <item itemvalue="Application.Graph" />
-      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.IterativeDeepening" />
+      <item itemvalue="Application.GraphTest" />
+      <item itemvalue="Application.BidirectionalSearch" />
       <item itemvalue="Application.Game" />
-      <item itemvalue="Application.DepthLimitedSearch" />
+      <item itemvalue="Application.Second_Controller" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Graph (1)" />
-        <item itemvalue="Application.DepthLimitedSearch" />
+        <item itemvalue="Application.Second_Controller" />
         <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.BidirectionalSearch" />
+        <item itemvalue="Application.GraphTest" />
+        <item itemvalue="Application.IterativeDeepening" />
       </list>
     </recent_temporary>
   </component>
@@ -370,12 +359,12 @@
       <option name="project" value="LOCAL" />
       <updated>1552413617900</updated>
     </task>
-    <task id="LOCAL-00003" summary="JavaOutputFormatting">
-      <created>1547281943936</created>
+    <task id="LOCAL-00003" summary="dls">
+      <created>1552475954021</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1547281943936</updated>
+      <updated>1552475954021</updated>
     </task>
     <task id="LOCAL-00004" summary="fibonacci series">
       <created>1547356487109</created>
@@ -440,14 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547535069768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21870287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21870287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -456,7 +445,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984917" weight="0.3685065" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984917" weight="0.36688313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,111 +474,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tic-Tac-Tae from nahid mahadi sir" />
     <MESSAGE value="min-max algorithm for tic tac toe" />
-    <option name="LAST_COMMIT_MESSAGE" value="min-max algorithm for tic tac toe" />
+    <MESSAGE value="dls" />
+    <option name="LAST_COMMIT_MESSAGE" value="dls" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Kotlin/date/arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kotlin/date/date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kotlin/date/array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kotlin/date/ObjectOriented.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemSolving/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemSolving/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemSolving/JavaStdinandStdoutII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemSolving/JavaOutputFormatting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemSolving/JavaLoopsI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Compute_Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/GenerateFibonacciSeries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/FibSeriesWithCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemSolving/IntegerSequenceDividing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProblemSolving/MinimumInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -761,6 +653,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/DFS.java" />
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/BFS_implementation.java" />
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/DLS.java" />
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Test00.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -768,29 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tictactoeminimax/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tictactoeminimax/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/DFS.java" />
-    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/BFS_implementation.java" />
     <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/Greedy_Best_First_Search.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2057">
           <caret line="137" selection-start-line="137" selection-end-line="137" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,40 +681,127 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/AStar.java">
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/DFS/DLS.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_Rex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3689">
-          <caret line="223" column="61" selection-start-line="223" selection-start-column="61" selection-end-line="223" selection-end-column="61" />
-          <folding>
-            <element signature="e#3027#3028#0" expanded="true" />
-            <element signature="e#3065#3066#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/DLS.java">
+    <entry file="file://$PROJECT_DIR$/src/Socket/MyServe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/BFS.java">
+    <entry file="file://$PROJECT_DIR$/src/tictactoeminimax/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/A_Star_Search/AStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/IDS/IterativeDeepening.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="120" column="10" lean-forward="true" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/DLS/DepthLimitedSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/Bidirectional_Search/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/Bidirectional_Search/GraphHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/Bidirectional_Search/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/Bidirection_Search_2/BidirectionalSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Artificial_Intelligence/Bidirection_Search_2/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoeminimax/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoeminimax/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Getter_Setter/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Getter_Setter/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Getter_Setter/Second_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>

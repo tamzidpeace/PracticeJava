@@ -1,4 +1,4 @@
-package Artificial_Intelligence;
+package Artificial_Intelligence.DLS;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -87,4 +87,51 @@ public class DepthLimitedSearch
     }
 }
 
-// credits : https://www.sanfoundry.com
+/* input and output
+
+Enter the number of nodes in the graph
+5
+Enter the adjacency matrix
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+Enter the source for the graph
+1
+The Depth limited Search Traversal  of Max Depth 3 for the graph is given by
+1 at depth 0
+2 at depth 1
+3 at depth 2
+4 at depth 3
+
+1--->2--->3--->4---5
+
+another example :
+
+Enter the number of nodes in the graph
+5
+Enter the adjacency matrix
+0 1 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+0 0 0 0 0
+Enter the source for the graph
+1
+The Depth limited Search Traversal of Max Depth 3 is
+1 at depth 0
+2 at depth 1
+4 at depth 2
+3 at depth 1
+5 at depth 2
+
+   1
+  /\
+ 2  3
+/   \
+4    5
+
+
+* */
+
