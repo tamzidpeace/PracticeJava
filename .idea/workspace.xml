@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcd4df2d-ed40-4c96-afa8-66f2421f8bcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BJET/stack.java" afterDir="false" />
+    <list default="true" id="dcd4df2d-ed40-4c96-afa8-66f2421f8bcd" name="Default Changelist" comment="dls">
+      <change afterPath="$PROJECT_DIR$/src/BJET/queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Test/Test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Test/Test02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Test02">
+  <component name="RunManager" selected="Application.queue">
     <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Test02" />
       <module name="Practice Java" />
@@ -95,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BJET.stack" />
+    <configuration name="queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJET.queue" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="vowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BJET.vowel" />
+    <configuration name="stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJET.stack" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
@@ -124,17 +122,17 @@
     <list>
       <item itemvalue="Application.decimalPointCount" />
       <item itemvalue="Application.dateCheck" />
-      <item itemvalue="Application.vowel" />
       <item itemvalue="Application.Test02" />
       <item itemvalue="Application.stack" />
+      <item itemvalue="Application.queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.queue" />
         <item itemvalue="Application.Test02" />
         <item itemvalue="Application.stack" />
         <item itemvalue="Application.decimalPointCount" />
         <item itemvalue="Application.dateCheck" />
-        <item itemvalue="Application.vowel" />
       </list>
     </recent_temporary>
   </component>
@@ -263,22 +261,22 @@
       <screen x="49" y="27" width="1317" height="741" />
     </state>
     <state x="314" y="27" width="777" height="739" key="CommitChangelistDialog2/49.27.1317.741@49.27.1317.741" timestamp="1576929887734" />
-    <state width="1271" height="261" key="GridCell.Tab.0.bottom" timestamp="1576929859586">
+    <state width="1271" height="178" key="GridCell.Tab.0.bottom" timestamp="1576931484905">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state width="1271" height="261" key="GridCell.Tab.0.bottom/49.27.1317.741@49.27.1317.741" timestamp="1576929859586" />
-    <state width="1271" height="261" key="GridCell.Tab.0.center" timestamp="1576929859585">
+    <state width="1271" height="178" key="GridCell.Tab.0.bottom/49.27.1317.741@49.27.1317.741" timestamp="1576931484905" />
+    <state width="1271" height="178" key="GridCell.Tab.0.center" timestamp="1576931484903">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state width="1271" height="261" key="GridCell.Tab.0.center/49.27.1317.741@49.27.1317.741" timestamp="1576929859585" />
-    <state width="1271" height="261" key="GridCell.Tab.0.left" timestamp="1576929859585">
+    <state width="1271" height="178" key="GridCell.Tab.0.center/49.27.1317.741@49.27.1317.741" timestamp="1576931484903" />
+    <state width="1271" height="178" key="GridCell.Tab.0.left" timestamp="1576931484903">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state width="1271" height="261" key="GridCell.Tab.0.left/49.27.1317.741@49.27.1317.741" timestamp="1576929859585" />
-    <state width="1271" height="261" key="GridCell.Tab.0.right" timestamp="1576929859585">
+    <state width="1271" height="178" key="GridCell.Tab.0.left/49.27.1317.741@49.27.1317.741" timestamp="1576931484903" />
+    <state width="1271" height="178" key="GridCell.Tab.0.right" timestamp="1576931484904">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state width="1271" height="261" key="GridCell.Tab.0.right/49.27.1317.741@49.27.1317.741" timestamp="1576929859585" />
+    <state width="1271" height="178" key="GridCell.Tab.0.right/49.27.1317.741@49.27.1317.741" timestamp="1576931484904" />
     <state x="108" y="38" key="SettingsEditor" timestamp="1576679180880">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
