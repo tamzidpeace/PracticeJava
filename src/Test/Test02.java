@@ -11,6 +11,16 @@ public class Test02 {
 
         isEmpty(list);
 
+        list.push("a");
+        list.push("b");
+        list.push("c");
+        list.add("d");// last
+        list.push("e"); // first
+
+
+        System.out.println(list.getFirst());
+        System.out.println(list.getLast());
+
     }
 
     public static int isEmpty(LinkedList<String> list) {

@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd4df2d-ed40-4c96-afa8-66f2421f8bcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BJET/bSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BJET/dateCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BJET/decimalPointCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BJET/extraSpaceRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BJET/sumOFArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BJET/vowel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BJET/stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Test/Test00.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Test/Test00.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Test/Test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Test/Test02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Getter_Setter/Second_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Getter_Setter/Second_Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test00.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="extraSpaceRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BJET.extraSpaceRemove" />
+    <configuration name="stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJET.stack" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test02" />
-      <item itemvalue="Application.dateCheck" />
       <item itemvalue="Application.decimalPointCount" />
-      <item itemvalue="Application.extraSpaceRemove" />
+      <item itemvalue="Application.dateCheck" />
       <item itemvalue="Application.vowel" />
+      <item itemvalue="Application.Test02" />
+      <item itemvalue="Application.stack" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test02" />
+        <item itemvalue="Application.stack" />
         <item itemvalue="Application.decimalPointCount" />
         <item itemvalue="Application.dateCheck" />
         <item itemvalue="Application.vowel" />
-        <item itemvalue="Application.extraSpaceRemove" />
       </list>
     </recent_temporary>
   </component>
@@ -267,22 +259,26 @@
       <screen x="49" y="27" width="1317" height="741" />
     </state>
     <state x="838" y="291" width="518" height="286" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/49.27.1317.741@49.27.1317.741" timestamp="1576726490923" />
-    <state width="1271" height="303" key="GridCell.Tab.0.bottom" timestamp="1576863058628">
+    <state x="314" y="27" width="777" height="739" key="CommitChangelistDialog2" timestamp="1576929887734">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state width="1271" height="303" key="GridCell.Tab.0.bottom/49.27.1317.741@49.27.1317.741" timestamp="1576863058628" />
-    <state width="1271" height="303" key="GridCell.Tab.0.center" timestamp="1576863058627">
+    <state x="314" y="27" width="777" height="739" key="CommitChangelistDialog2/49.27.1317.741@49.27.1317.741" timestamp="1576929887734" />
+    <state width="1271" height="261" key="GridCell.Tab.0.bottom" timestamp="1576929859586">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state width="1271" height="303" key="GridCell.Tab.0.center/49.27.1317.741@49.27.1317.741" timestamp="1576863058627" />
-    <state width="1271" height="303" key="GridCell.Tab.0.left" timestamp="1576863058627">
+    <state width="1271" height="261" key="GridCell.Tab.0.bottom/49.27.1317.741@49.27.1317.741" timestamp="1576929859586" />
+    <state width="1271" height="261" key="GridCell.Tab.0.center" timestamp="1576929859585">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state width="1271" height="303" key="GridCell.Tab.0.left/49.27.1317.741@49.27.1317.741" timestamp="1576863058627" />
-    <state width="1271" height="303" key="GridCell.Tab.0.right" timestamp="1576863058628">
+    <state width="1271" height="261" key="GridCell.Tab.0.center/49.27.1317.741@49.27.1317.741" timestamp="1576929859585" />
+    <state width="1271" height="261" key="GridCell.Tab.0.left" timestamp="1576929859585">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state width="1271" height="303" key="GridCell.Tab.0.right/49.27.1317.741@49.27.1317.741" timestamp="1576863058628" />
+    <state width="1271" height="261" key="GridCell.Tab.0.left/49.27.1317.741@49.27.1317.741" timestamp="1576929859585" />
+    <state width="1271" height="261" key="GridCell.Tab.0.right" timestamp="1576929859585">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state width="1271" height="261" key="GridCell.Tab.0.right/49.27.1317.741@49.27.1317.741" timestamp="1576929859585" />
     <state x="108" y="38" key="SettingsEditor" timestamp="1576679180880">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
@@ -291,6 +287,10 @@
       <screen x="49" y="27" width="1317" height="741" />
     </state>
     <state x="363" y="225" key="com.intellij.ide.util.TipDialog/49.27.1317.741@49.27.1317.741" timestamp="1576917311189" />
+    <state x="475" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576929892269">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="475" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/49.27.1317.741@49.27.1317.741" timestamp="1576929892269" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
