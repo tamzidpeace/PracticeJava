@@ -2,8 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd4df2d-ed40-4c96-afa8-66f2421f8bcd" name="Default Changelist" comment="dls">
-      <change afterPath="$PROJECT_DIR$/src/BJET/queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Algorithms/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Algorithms/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/A_Star_Search/AStar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/A_Star_Search/AStar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Bidirection_Search_2/BidirectionalSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Bidirection_Search_2/BidirectionalSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Bidirectional_Search/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Bidirectional_Search/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Bidirectional_Search/GraphHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Bidirectional_Search/GraphHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Bidirectional_Search/GraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Bidirectional_Search/GraphTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/DFS/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/DFS/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/DLS/DepthLimitedSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/DLS/DepthLimitedSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/IDS/IterativeDeepening.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/IDS/IterativeDeepening.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Artificial_Intelligence/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/BJET/bSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/BJET/bSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/BJET/dateCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/BJET/dateCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/BJET/queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/BJET/queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/BJET/stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/BJET/stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/BJET/vowel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/BJET/vowel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/CTC_ProblemSolution/IsUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/CTC_ProblemSolution/IsUnique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/DataStructures/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/DataStructures/ArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/DataStructures/Hashtable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/DataStructures/Hashtable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/MIN_MAX/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/MIN_MAX/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/NormalJavaLearning/MultiThreading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/NormalJavaLearning/MultiThreading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/AntonAndDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/AntonAndDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/AntonandPolyhedrons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/AntonandPolyhedrons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/BachgoldProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/BachgoldProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/BearAndBigBrother.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/BearAndBigBrother.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/GenderDetect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/GenderDetect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/HolidayOfEquality.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/HolidayOfEquality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/InSearchofanEasyProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/InSearchofanEasyProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/IntegerSequenceDividing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/IntegerSequenceDividing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/JavaLoopsI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/JavaLoopsI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/JavaOutputFormatting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/JavaOutputFormatting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/JavaStdinandStdoutII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/JavaStdinandStdoutII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/MinimumInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/MinimumInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/WrongSubtraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/ProblemSolving/WrongSubtraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Socket/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Socket/MyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Socket/MyServe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Socket/MyServe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/Test/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/Test/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/tictactoeminimax/Game$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/tictactoeminimax/Game$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/tictactoeminimax/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/tictactoeminimax/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/tictactoeminimax/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/tictactoeminimax/GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice Java/tictactoeminimax/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice Java/tictactoeminimax/MyClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +88,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="bfs&#9;FILE&#9;file://C:/Users/arafa/IdeaProjects/Practice Java/src/Artificial_Intelligence/BFS.java" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553101009643" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.queue">
+  <component name="RunManager" selected="Application.Test03">
     <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Test02" />
       <module name="Practice Java" />
@@ -67,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dateCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BJET.dateCheck" />
+    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test03" />
       <module name="Practice Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BJET.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,18 +165,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.decimalPointCount" />
-      <item itemvalue="Application.dateCheck" />
       <item itemvalue="Application.Test02" />
       <item itemvalue="Application.stack" />
       <item itemvalue="Application.queue" />
+      <item itemvalue="Application.Test03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test03" />
         <item itemvalue="Application.queue" />
         <item itemvalue="Application.Test02" />
         <item itemvalue="Application.stack" />
         <item itemvalue="Application.decimalPointCount" />
-        <item itemvalue="Application.dateCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +297,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="dls" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="447" y="203" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581696229268">
+      <screen x="0" y="0" width="1192" height="629" />
+    </state>
+    <state x="447" y="203" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1192.629@0.0.1192.629" timestamp="1581696229268" />
     <state x="838" y="291" width="518" height="286" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576726490923">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
@@ -261,29 +309,39 @@
       <screen x="49" y="27" width="1317" height="741" />
     </state>
     <state x="314" y="27" width="777" height="739" key="CommitChangelistDialog2/49.27.1317.741@49.27.1317.741" timestamp="1576929887734" />
-    <state width="1271" height="178" key="GridCell.Tab.0.bottom" timestamp="1576931484905">
-      <screen x="49" y="27" width="1317" height="741" />
+    <state x="317" y="69" key="FileChooserDialogImpl" timestamp="1581696603625">
+      <screen x="0" y="0" width="1192" height="629" />
     </state>
+    <state x="317" y="69" key="FileChooserDialogImpl/0.0.1192.629@0.0.1192.629" timestamp="1581696603625" />
+    <state width="1149" height="146" key="GridCell.Tab.0.bottom" timestamp="1581696517095">
+      <screen x="0" y="0" width="1192" height="629" />
+    </state>
+    <state width="1149" height="146" key="GridCell.Tab.0.bottom/0.0.1192.629@0.0.1192.629" timestamp="1581696517095" />
     <state width="1271" height="178" key="GridCell.Tab.0.bottom/49.27.1317.741@49.27.1317.741" timestamp="1576931484905" />
-    <state width="1271" height="178" key="GridCell.Tab.0.center" timestamp="1576931484903">
-      <screen x="49" y="27" width="1317" height="741" />
+    <state width="1149" height="146" key="GridCell.Tab.0.center" timestamp="1581696517095">
+      <screen x="0" y="0" width="1192" height="629" />
     </state>
+    <state width="1149" height="146" key="GridCell.Tab.0.center/0.0.1192.629@0.0.1192.629" timestamp="1581696517095" />
     <state width="1271" height="178" key="GridCell.Tab.0.center/49.27.1317.741@49.27.1317.741" timestamp="1576931484903" />
-    <state width="1271" height="178" key="GridCell.Tab.0.left" timestamp="1576931484903">
-      <screen x="49" y="27" width="1317" height="741" />
+    <state width="1149" height="146" key="GridCell.Tab.0.left" timestamp="1581696517095">
+      <screen x="0" y="0" width="1192" height="629" />
     </state>
+    <state width="1149" height="146" key="GridCell.Tab.0.left/0.0.1192.629@0.0.1192.629" timestamp="1581696517095" />
     <state width="1271" height="178" key="GridCell.Tab.0.left/49.27.1317.741@49.27.1317.741" timestamp="1576931484903" />
-    <state width="1271" height="178" key="GridCell.Tab.0.right" timestamp="1576931484904">
-      <screen x="49" y="27" width="1317" height="741" />
+    <state width="1149" height="146" key="GridCell.Tab.0.right" timestamp="1581696517095">
+      <screen x="0" y="0" width="1192" height="629" />
     </state>
+    <state width="1149" height="146" key="GridCell.Tab.0.right/0.0.1192.629@0.0.1192.629" timestamp="1581696517095" />
     <state width="1271" height="178" key="GridCell.Tab.0.right/49.27.1317.741@49.27.1317.741" timestamp="1576931484904" />
-    <state x="108" y="38" key="SettingsEditor" timestamp="1576679180880">
-      <screen x="49" y="27" width="1317" height="741" />
+    <state x="46" y="0" key="SettingsEditor" timestamp="1581696617355">
+      <screen x="0" y="0" width="1192" height="629" />
     </state>
+    <state x="46" y="0" key="SettingsEditor/0.0.1192.629@0.0.1192.629" timestamp="1581696617355" />
     <state x="108" y="38" key="SettingsEditor/49.27.1317.741@49.27.1317.741" timestamp="1576679180880" />
-    <state x="363" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1576917311189">
-      <screen x="49" y="27" width="1317" height="741" />
+    <state x="284" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1581696129776">
+      <screen x="0" y="0" width="1192" height="629" />
     </state>
+    <state x="284" y="168" key="com.intellij.ide.util.TipDialog/0.0.1192.629@0.0.1192.629" timestamp="1581696129776" />
     <state x="363" y="225" key="com.intellij.ide.util.TipDialog/49.27.1317.741@49.27.1317.741" timestamp="1576917311189" />
     <state x="475" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576929892269">
       <screen x="49" y="27" width="1317" height="741" />
